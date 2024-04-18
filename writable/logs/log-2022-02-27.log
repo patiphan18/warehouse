@@ -1,0 +1,199 @@
+CRITICAL - 2022-02-27 01:42:32 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_history->insert_history(Object(stdClass), Object(stdClass))
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 01:49:26 --> Array to string conversion
+#0 C:\xampp\htdocs\warehouse\app\Models\M_history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_history->insert_history(Array, Object(stdClass))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-27 01:50:06 --> Array to string conversion
+#0 C:\xampp\htdocs\warehouse\app\Models\M_history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_history->insert_history(Array, Object(stdClass))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-27 02:02:58 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_history->insert_history(1, Object(stdClass))
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 02:03:38 --> Array to string conversion
+#0 C:\xampp\htdocs\warehouse\app\Models\M_history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_history->insert_history(Array, Object(stdClass))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-27 02:12:25 --> Array to string conversion
+#0 C:\xampp\htdocs\warehouse\app\Models\M_history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(124): App\Models\M_history->insert_history(Array, '1')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->insert_lot()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-27 12:16:13 --> Invalid file: /warehouse/show_login.php
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/warehouse/show...')
+#1 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('/warehouse/show...', Array, true)
+#2 C:\xampp\htdocs\warehouse\app\Filters\Auth.php(13): view('/warehouse/show...')
+#3 C:\xampp\htdocs\warehouse\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 12:16:28 --> Invalid file: show_login.php
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('show_login.php')
+#1 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('show_login', Array, true)
+#2 C:\xampp\htdocs\warehouse\app\Filters\Auth.php(13): view('show_login')
+#3 C:\xampp\htdocs\warehouse\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 12:16:30 --> Invalid file: show_login.php
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('show_login.php')
+#1 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('show_login', Array, true)
+#2 C:\xampp\htdocs\warehouse\app\Filters\Auth.php(13): view('show_login')
+#3 C:\xampp\htdocs\warehouse\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 12:30:07 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_login', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(22): view('v_show_login')
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_login()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 12:31:05 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_login', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(22): view('v_show_login')
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_login()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 12:31:06 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_login', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(22): view('v_show_login')
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_login()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 12:31:07 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_login', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(22): view('v_show_login')
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_login()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 12:48:31 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_login', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(22): view('v_show_login')
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_login()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 13:15:44 --> Invalid file: index.php
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 13:15:47 --> Invalid file: index.php
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 14:37:18 --> Undefined variable $token
+#0 C:\xampp\htdocs\warehouse\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 14:43:21 --> Undefined variable $token
+#0 C:\xampp\htdocs\warehouse\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 14:43:23 --> Undefined variable $token
+#0 C:\xampp\htdocs\warehouse\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 14:43:44 --> Undefined variable $token
+#0 C:\xampp\htdocs\warehouse\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 15:04:28 --> Undefined variable $foo
+#0 C:\xampp\htdocs\warehouse\app\Views\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 15:07:06 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

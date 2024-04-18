@@ -1,0 +1,127 @@
+.add_form {
+    background-color: #fefefe;
+    margin: -60px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 620px;
+    border-radius: 5px;
+}
+
+.add_form input[type="number"] {
+    width: 310px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.add_form input[type="text"] {
+    width: 310px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.add_form input[type="submit"] {
+    width: 340px;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 61, 219);
+    color: white;
+}
+
+.add_form select {
+    width: 340px;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.add_form select:invalid {
+    color: gray;
+}
+
+.add_form select option{
+    color: black;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+    border: 1px solid rgb(4, 61, 219);
+    outline: none;
+    box-shadow: 0 0 3px rgb(5, 66, 233);
+}
+
+.add_form table, .add_form tr, .add_form td {
+    border: none; 
+    padding: 0px 5px 10px 5px;
+    margin: 0;
+}
+
+.edit_form {
+    background-color: #fefefe;
+    margin: -60px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 620px;
+    border-radius: 5px;
+}
+
+.edit_form input[type="number"] {
+    width: 310px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.edit_form input[type="text"] {
+    width: 310px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.edit_form input[type="submit"] {
+    width: 340px;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 61, 219);
+    color: white;
+}
+
+.edit_form select {
+    width: 340px;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.edit_form select:invalid {
+    color: gray;
+}
+
+.edit_form select option{
+    color: black;
+}

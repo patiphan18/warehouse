@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    background-color: rgb(245, 244, 244);
+    font-family: Sarabun;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 4px;
+}
+
+.home_menu {
+    float: left;
+    display: block;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.home_menu:hover {
+    float: left;
+    display: block;
+    color: rgb(0, 41, 177);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.menu {
+    float: left;
+    display: block;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.menu:hover {
+    float: left;
+    display: block;
+    color: rgb(0, 41, 177);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.active {
+    border-bottom: 3px solid rgb(0, 41, 177);
+}
+
+.profile {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.profile:hover {
+    float: right;
+    display: block;
+    color: rgb(10, 0, 102);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 30px 60px 20px 40px;
+}
+
+.box {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box select {
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.box select option {
+    font-size: 16px;
+    padding: 30px;
+}
+
+.search_input {
+    font-size: 16px;
+    padding: 5px;
+    width: 500px;
+}
+
+.search_submit {
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(202, 202, 202);
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(28, 100, 255);
+    color: rgb(245, 245, 245);
+}
+
+.im_btn {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(4, 61, 219);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.ex_btn {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.edit_btn {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(255, 156, 16);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.im_modal, .ex_modal, .add_modal, .edit_modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.detail_modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+.im_form {
+    background-color: #fefefe;
+    margin: -30px auto;
+    padding: 0px 30px 15px 30px;
+    border: 1px solid #888;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.detail_form {
+    background-color: #fefefe;
+    margin: -30px auto;
+    padding: 0px 30px 15px 30px;
+    border: 1px solid #888;
+    width: 400px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+    border: 1px solid rgb(4, 61, 219);
+    outline: none;
+    box-shadow: 0 0 3px rgb(5, 66, 233);
+}
+
+.edit_form table, .edit_form tr, .edit_form td {
+    border: none; 
+    padding: 0px 5px 10px 5px;
+    margin: 0;
+}
+
+.img_input {
+    height: 150px; 
+    width: 250px;
+    object-fit: cover;
+    display: none;
+    margin: auto;
+}
+
+.img_exam {
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    padding: 0px 5px;
+}
+
+.detail_btn {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(0, 65, 245);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 20px 0px auto 0px;
+}
+  
+.page {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.page:hover {
+    background-color: rgb(129, 169, 255);
+}
+  
+.this_page {
+    background-color: rgb(4, 61, 219);
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.rim {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: auto;
+}

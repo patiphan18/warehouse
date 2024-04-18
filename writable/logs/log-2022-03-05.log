@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-05 07:00:37 --> Undefined variable $arr_emp
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_change_password.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_change_p...', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(64): view('v_show_change_p...')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->change_password()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

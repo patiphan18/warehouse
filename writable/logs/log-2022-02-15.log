@@ -1,0 +1,63 @@
+CRITICAL - 2022-02-15 23:23:02 --> Undefined property: stdClass::$student_cluster_number
+#0 C:\xampp\htdocs\campmodel\app\Views\v_show_list.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\campmodel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\campmodel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\campmodel\system\Common.php(1089): CodeIgniter\View\View->render('v_show_list', Array, true)
+#4 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(44): view('v_show_list', Array)
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_all()
+#6 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-15 23:49:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE student_id = '1'' at line 1
+CRITICAL - 2022-02-15 23:49:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE student_id = '1'' at line 1
+#0 C:\xampp\htdocs\campmodel\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE student ...', 0)
+#1 C:\xampp\htdocs\campmodel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE student ...')
+#2 C:\xampp\htdocs\campmodel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE student ...')
+#3 C:\xampp\htdocs\campmodel\app\Models\M_student.php(25): CodeIgniter\Database\BaseConnection->query('DELETE student ...')
+#4 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(49): App\Models\M_student->delete_student('1')
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->delete_student('1')
+#6 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-15 23:49:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\campmodel\app\Views\v_show_list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\campmodel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\campmodel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\campmodel\system\Common.php(1089): CodeIgniter\View\View->render('v_show_list', Array, true)
+#4 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(44): view('v_show_list', Array)
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_all()
+#6 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-15 23:50:04 --> Undefined offset: 0
+#0 C:\xampp\htdocs\campmodel\app\Views\v_show_list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\campmodel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\campmodel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\campmodel\system\Common.php(1089): CodeIgniter\View\View->render('v_show_list', Array, true)
+#4 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(44): view('v_show_list', Array)
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_all()
+#6 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-15 23:52:26 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\campmodel\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('62160109', 'insert')
+#1 C:\xampp\htdocs\campmodel\system\Model.php(625): CodeIgniter\BaseModel->insert('62160109', true)
+#2 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(37): CodeIgniter\Model->insert('62160109', true, '\xE0\xB8\xA7\xE0\xB8\xB4\xE0\xB8\xA3\xE0\xB8\xB1\xE0\xB8\x95...', '\xE0\xB8\xAA\xE0\xB8\xB2\xE0\xB8\x81\xE0\xB8\xA3', '2000-12-11', '62160109@go.buu...', '3', '4', '1644990746_f7e2...', '1644990746_f1fb...')
+#3 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#4 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-15 23:54:09 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\campmodel\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('62160109', 'insert')
+#1 C:\xampp\htdocs\campmodel\system\Model.php(625): CodeIgniter\BaseModel->insert('62160109', true)
+#2 C:\xampp\htdocs\campmodel\app\Controllers\Work_shop1.php(37): CodeIgniter\Model->insert('62160109', true, '\xE0\xB8\xA7\xE0\xB8\xB4\xE0\xB8\xA3\xE0\xB8\xB1\xE0\xB8\x95...', '\xE0\xB8\xAA\xE0\xB8\xB2\xE0\xB8\x81\xE0\xB8\xA3', '2000-12-11', '62160109@go.buu...', '3', '4', '1644990849_6694...', '1644990849_bccb...')
+#3 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#4 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#5 C:\xampp\htdocs\campmodel\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\campmodel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

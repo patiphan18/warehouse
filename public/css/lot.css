@@ -1,0 +1,109 @@
+.im_form input[type="number"] {
+    width: 350px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.im_form input[type="number"]:focus {
+    border: 1px solid rgb(4, 61, 219);
+    outline: none;
+    box-shadow: 0 0 3px rgb(5, 66, 233);
+}
+
+.im_form input[type="date"] {
+    width: 170px;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.im_form input[type="date"]:focus {
+    border: 1px solid rgb(4, 61, 219);
+    outline: none;
+    box-shadow: 0 0 3px rgb(5, 66, 233);
+}
+
+.im_form input[type="submit"] {
+    width: 390px;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 61, 219);
+    color: white;
+    margin-top: 10px;
+}
+
+.im_form input[type="submit"]:hover {
+    background-color: rgb(2, 54, 199);
+}
+
+.im_form table, .im_form tr, .im_form td {
+    border: none; 
+    padding: 0px 5px 10px 5px;
+    margin: 0;
+}
+
+.ex_form {
+    background-color: #fefefe;
+    margin: -40px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.ex_form table, .ex_form tr, .ex_form td {
+    border: none; 
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.ex_form input[type="text"] {
+    width: 310px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 5px auto;
+}
+
+.ex_form input[type="submit"] {
+    width: 340px;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 61, 219);
+    color: white;
+    margin: 5px auto;
+    display: block;
+}
+
+.ex_form select {
+    width: 340px;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 5px auto;
+}
+
+.ex_form select:invalid {
+    color: gray;
+}
+
+.ex_form select option{
+    color: black;
+}

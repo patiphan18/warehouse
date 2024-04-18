@@ -1,0 +1,103 @@
+CRITICAL - 2022-01-27 03:43:17 --> move_uploaded_file(uploads/Profile.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(12): move_uploaded_file('C:\\xampp\\tmp\\ph...', 'uploads/Profile...')
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#3 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#4 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 03:43:58 --> move_uploaded_file(uploads/Profile.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(12): move_uploaded_file('C:\\xampp\\tmp\\ph...', 'uploads/Profile...')
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#3 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#4 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 03:47:40 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 03:53:23 --> Undefined property: App\Controllers\Work_shop1::$load
+#0 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#3 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 03:53:38 --> Undefined variable: img
+#0 C:\xampp\htdocs\camp\app\Views\v_show_value.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\camp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\camp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\camp\system\Common.php(1089): CodeIgniter\View\View->render('v_show_value', Array, true)
+#4 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(42): view('v_show_value', Array)
+#5 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#6 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:54:00 --> Undefined variable: img_name
+#0 C:\xampp\htdocs\camp\app\Views\v_show_value.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\camp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\camp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\camp\system\Common.php(1089): CodeIgniter\View\View->render('v_show_value', Array, true)
+#4 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(42): view('v_show_value', Array)
+#5 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#6 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:54:59 --> Undefined variable: img_name
+#0 C:\xampp\htdocs\camp\app\Views\v_show_value.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\camp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\camp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\camp\system\Common.php(1089): CodeIgniter\View\View->render('v_show_value', Array, true)
+#4 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(42): view('v_show_value', Array)
+#5 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#6 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 03:55:04 --> Undefined variable: img_name
+#0 C:\xampp\htdocs\camp\app\Views\v_show_value.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\camp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\camp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\camp\system\Common.php(1089): CodeIgniter\View\View->render('v_show_value', Array, true)
+#4 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(42): view('v_show_value', Array)
+#5 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#6 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 23:42:16 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 23:45:39 --> Undefined variable: image_name
+#0 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#3 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 23:46:23 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 23:50:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\camp\app\Views\v_show_value.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\camp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\camp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\camp\system\Common.php(1089): CodeIgniter\View\View->render('v_show_value', Array, true)
+#4 C:\xampp\htdocs\camp\app\Controllers\Work_shop1.php(22): view('v_show_value', Array)
+#5 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#6 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#7 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

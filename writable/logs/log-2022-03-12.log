@@ -1,0 +1,258 @@
+CRITICAL - 2022-03-12 06:21:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(310): view('v_show_lot', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 06:22:50 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(310): view('v_show_lot', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 06:23:11 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(310): view('v_show_lot', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 07:21:53 --> Undefined variable $emp
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 257)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(489): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 11:32:32 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Moving.php(76): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Moving->show_moving()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moving))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 13:03:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-12 13:06:01 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-12 13:07:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-12 13:24:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_medicine', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(75): view('v_show_medicine', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->show_medicine()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 14:11:45 --> unlink(./picture1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./pictur...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(129): unlink('./picture164681...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:13:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(140): CodeIgniter\Model->__call('edit_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:15:33 --> unlink(./picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./pictur...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(129): unlink('./picture/16468...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:16:16 --> unlink(/picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/picture...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(129): unlink('/picture/164681...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:17:56 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('http://localhos...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:19:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(144): CodeIgniter\Model->__call('edit_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:22:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(144): CodeIgniter\Model->__call('edit_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:28:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(144): CodeIgniter\Model->__call('edit_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:39:12 --> unlink(../../public/picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../../pu...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('../../public/pi...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:40:35 --> unlink(././public/picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(././publ...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('././public/pict...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:41:27 --> unlink(/public/picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/public/...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('/public/picture...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:42:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(142): CodeIgniter\Model->__call('edit_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:47:20 --> unlink(./picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./pictur...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('./picture/16468...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:47:53 --> unlink(/picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/picture...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('/picture/164681...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:49:33 --> unlink(picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(picture/...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('picture/1646816...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:50:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(143): CodeIgniter\Model->__call('update_medicine', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:51:12 --> unlink(picture/1646816957_ef08854c829c84f58af7.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(picture/...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('picture/1646816...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:54:46 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\warehouse\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(134): CodeIgniter\HTTP\Files\UploadedFile->move('./picture/', '1647118486_a8d5...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:58:25 --> unlink(picture/1645879204_1e5dc1f2cbd80ba3d41d.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(picture/...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(130): unlink('picture/1645879...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 14:59:28 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\warehouse\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\warehouse\app\Controllers\Medicine.php(134): CodeIgniter\HTTP\Files\UploadedFile->move('./picture/', '1647118768_3ab6...')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Medicine->edit_medicine()
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 15:18:31 --> Undefined property: stdClass::$lot_mfg
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Moving.php(76): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Moving->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moving))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 15:18:58 --> number_format(): Argument #1 ($num) must be of type float, string given
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(167): number_format('2022-03-12')
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Moving.php(76): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Moving->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moving))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

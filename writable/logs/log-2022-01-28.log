@@ -1,0 +1,6 @@
+CRITICAL - 2022-01-28 06:54:39 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\camp\system\CodeIgniter.php(825): App\Controllers\Work_shop1->show_value()
+#1 C:\xampp\htdocs\camp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Work_shop1))
+#2 C:\xampp\htdocs\camp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\camp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

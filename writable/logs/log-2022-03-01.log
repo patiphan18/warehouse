@@ -1,0 +1,80 @@
+CRITICAL - 2022-03-01 13:09:19 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(23): App\Models\M_employee->get_employee_id(Object(stdClass))
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 13:10:11 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(23): App\Models\M_employee->get_employee_by_id(Object(stdClass))
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 13:10:43 --> Undefined variable $arr_emp
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 13:11:04 --> Attempt to read property "emp_code" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 13:13:03 --> Attempt to read property "emp_code" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 13:14:34 --> Attempt to read property "emp_code" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 13:16:11 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 13:19:10 --> Undefined property: stdClass::$f_name
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(24): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

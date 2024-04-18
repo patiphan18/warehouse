@@ -1,0 +1,80 @@
+.profile_box {
+    overflow: hidden;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.profile_value {
+    width: 350px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 10px auto;
+    background-color: #e0e0e0;
+}
+
+.pass_value {
+    width: 350px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+
+.pass_value:focus {
+    border: 1px solid rgb(4, 61, 219);
+    outline: none;
+    box-shadow: 0 0 3px rgb(5, 66, 233);
+}
+
+.profile_topic {
+    width: 160px;
+    font-size: 16px;
+    padding: 10px 45px;
+    border: none;
+    margin: 10px auto;
+    background-color: white;
+    color: rgb(37, 37, 37);
+}
+
+.profile_box input[type="submit"]{
+    width: 380px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4458b1;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.side_list {
+    height: 200px;
+    width: 150px;
+    margin: auto;
+}
+
+.side_menu, .logout {
+    display: block;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.side_menu:hover {
+    color: rgb(0, 64, 202);
+}
+
+.logout:hover {
+    color: rgb(202, 0, 0);
+}

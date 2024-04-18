@@ -1,0 +1,692 @@
+CRITICAL - 2022-03-08 00:47:56 --> Undefined array key 40
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_history.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_history', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(314): view('v_show_history', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 00:49:34 --> Undefined array key 40
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_history.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_history', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(314): view('v_show_history', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 00:52:36 --> Undefined array key 40
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_history.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_history', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(314): view('v_show_history', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 00:52:45 --> Undefined array key 14
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_history.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_history', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(314): view('v_show_history', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 01:02:47 --> Undefined array key 14
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_history.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_history', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(314): view('v_show_history', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 02:20:51 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:22:33 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:22:34 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:23:52 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:23:53 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:24:23 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:24:24 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 02:24:25 --> Too few arguments to function App\Controllers\Warehouse::show_moving(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 03:15:21 --> Object of class stdClass could not be converted to int
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(338): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 338)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 03:16:27 --> Undefined property: stdClass::$last_id
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 338)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 03:16:52 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(351): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 03:18:29 --> Undefined variable $arr_history
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(351): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:18:46 --> Attempt to read property "move_id" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(351): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:21:01 --> Attempt to read property "move_id" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:21:01 --> Attempt to read property "move_id" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:21:43 --> Attempt to read property "arr_moving" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:21:55 --> Attempt to read property "arr_moving" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:22:15 --> Attempt to read property "arr_moving" on null
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:25:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:28:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:29:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:31:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:31:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:31:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(344): CodeIgniter\Model->__call('get_moving_by_i...', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 03:31:45 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(349): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 03:34:06 --> Attempt to read property "last_index" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:36:12 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(347): App\Models\M_moving->get_moving_by_range(10, Object(stdClass))
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 03:38:54 --> Undefined variable $first_id
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:39:15 --> Attempt to read property "min" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:39:56 --> Attempt to read property "min" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:40:19 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 03:41:23 --> Undefined property: stdClass::$stat_name
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:42:13 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:43:22 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:43:59 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:44:15 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:44:15 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:44:58 --> Undefined variable $first_page
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(352): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:47:17 --> Attempt to read property "first_page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(358): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:50:33 --> Attempt to read property "first_page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(358): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:51:10 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(358): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:51:24 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(358): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:51:36 --> Attempt to read property "page" on int
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(358): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-08 03:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN wh_lot ON wh_moving.lot_id = wh_lot.lot_id 
+            LEFT JOIN ...' at line 2
+CRITICAL - 2022-03-08 03:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN wh_lot ON wh_moving.lot_id = wh_lot.lot_id 
+            LEFT JOIN ...' at line 2
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_moving.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(353): App\Models\M_moving->get_moving_by_range(20, '14')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('2')
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:57:25 --> Undefined array key 1
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(361): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:57:39 --> Undefined array key 1
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(361): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:57:40 --> Undefined array key 1
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(361): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 03:58:25 --> Undefined array key 1
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(361): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 04:09:26 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(361): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 05:13:49 --> Attempt to read property "move_id" on string
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving('1')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 06:02:51 --> Undefined property: stdClass::$med_code
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_lot.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(251): view('v_show_lot', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 06:02:54 --> Undefined property: stdClass::$med_code
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_lot.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(251): view('v_show_lot', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-08 06:23:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''4', '10'' at line 6
+CRITICAL - 2022-03-08 06:23:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''4', '10'' at line 6
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_moving.php(46): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(370): App\Models\M_moving->get_moving_by_limit(4, 10)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-08 06:24:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''4', '10'' at line 6
+CRITICAL - 2022-03-08 06:24:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''4', '10'' at line 6
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_moving.php(46): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(370): App\Models\M_moving->get_moving_by_limit(4, 10)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 06:28:47 --> Undefined variable $last_id
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(373): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 06:30:07 --> Undefined variable $max
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_moving.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(373): view('v_show_moving', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 06:30:17 --> Undefined variable $min
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 357)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_moving()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 07:06:27 --> Too few arguments to function App\Controllers\Warehouse::show_lot(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 07:06:58 --> Too few arguments to function App\Controllers\Warehouse::show_lot(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 07:07:08 --> Undefined property: stdClass::$move_id
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 239)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot('1')
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 07:07:29 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(278): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot('1')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 07:08:53 --> Too few arguments to function App\Controllers\Warehouse::show_lot(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 07:09:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\warehouse\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_moving', Array, true)
+#3 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(278): view('v_show_moving', Array)
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 07:10:10 --> Undefined variable $emp
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_lot.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_lot', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(277): view('v_show_lot', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-08 07:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE wh_lot.stat_id = '1'' at line 3
+CRITICAL - 2022-03-08 07:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE wh_lot.stat_id = '1'' at line 3
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_lot.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(273): App\Models\M_lot->get_lot_in_warehouse_by_limit(0, 8)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 07:20:54 --> Too few arguments to function App\Controllers\Warehouse::show_medicine(), 0 passed in C:\xampp\htdocs\warehouse\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 07:21:06 --> Undefined property: stdClass::$lot_id
+#0 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

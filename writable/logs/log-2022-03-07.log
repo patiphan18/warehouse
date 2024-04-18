@@ -1,0 +1,212 @@
+ERROR - 2022-03-07 10:38:31 --> Error connecting to the database: Unknown database 'warehouse'
+CRITICAL - 2022-03-07 10:38:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'warehouse'
+#0 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\warehouse\app\Models\M_employee.php(33): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_employee->check_login('63160248', '03ac674216f3e15...')
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->check_login()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-07 10:39:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4'' at line 2
+CRITICAL - 2022-03-07 10:39:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4'' at line 2
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_employee.php(33): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_employee->check_login('63160248', '03ac674216f3e15...')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->check_login()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-07 10:41:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4'' at line 2
+CRITICAL - 2022-03-07 10:41:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4'' at line 2
+#0 C:\xampp\htdocs\warehouse\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM w...', 0)
+#1 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM w...')
+#2 C:\xampp\htdocs\warehouse\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM w...')
+#3 C:\xampp\htdocs\warehouse\app\Models\M_employee.php(33): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(125): App\Models\M_employee->check_login('63160248', '03ac674216f3e15...')
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->check_login()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 10:42:19 --> Class "App\Models\M_medicine_info" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:42:21 --> Class "App\Models\M_medicine_lot" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_lot()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:42:23 --> Class "App\Models\M_history" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:42:25 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(25): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 10:43:14 --> Class "App\Models\M_medicine_info" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:44:25 --> Class "App\Models\M_medicine_info" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:44:26 --> Class "App\Models\M_medicine_info" not found
+#0 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#1 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#2 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 10:47:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:51:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:52:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:52:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:57:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:57:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 10:59:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(164): CodeIgniter\Model->__call('get_all_type', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_medicine()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:00:06 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:01:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:02:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:07:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:07:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\warehouse\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\warehouse\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(309): CodeIgniter\Model->__call('get_all_history', Array)
+#3 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_history()
+#4 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 11:09:57 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_profile', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(25): view('v_show_profile', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_profile()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 11:10:27 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\warehouse\app\Views\v_show_change_password.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\warehouse\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\warehouse\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\warehouse\system\Common.php(1089): CodeIgniter\View\View->render('v_show_change_p...', Array, true)
+#4 C:\xampp\htdocs\warehouse\app\Controllers\Warehouse.php(34): view('v_show_change_p...', Array)
+#5 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(825): App\Controllers\Warehouse->show_change_password()
+#6 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warehouse))
+#7 C:\xampp\htdocs\warehouse\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\warehouse\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
